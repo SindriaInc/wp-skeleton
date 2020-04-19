@@ -41,6 +41,31 @@ define( 'DB_COLLATE', '' );
 define('WP_CONTENT_DIR', dirname(__FILE__) . '/app');
 define('WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app');
 
+/** App URL */
+define('WP_HOME','http://localhost:8090/wp-core');
+define('WP_SITEURL','http://localhost:8090/wp-core');
+
+/** Disallow file edit */
+define('DISALLOW_FILE_EDIT', true);
+
+//define('WP_ALLOW_REPAIR', true);
+define('WP_MAX_MEMORY_LIMIT', '128M');
+
+define('DISABLE_WP_CRON', true);
+//define('ALTERNATE_WP_CRON', true);
+
+define('FORCE_SSL_ADMIN', false);
+//define('FORCE_SSL_LOGIN', true);
+//define('FORCE_SSL_CONTENT', true);
+
+/** Disable post revisions */
+define('WP_POST_REVISIONS', false);
+
+/** Enable Core auto-updates */
+define('WP_AUTO_UPDATE_CORE', true);
+
+define('WPLANG', 'it_IT');
+
 
 /**#@+
  * Authentication Unique Keys and Salts.
