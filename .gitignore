@@ -1,8 +1,13 @@
 /.idea
 
-/app/mu-plugins
-/app/plugins
-/app/themes
+/app/mu-plugins/*
+!/app/mu-plugins/.gitkeep
+
+/app/plugins/*
+!/app/plugins/.gitkeep
+
+/app/themes/*
+!/app/themes/.gitkeep
 
 /wp-core
 /vendor
