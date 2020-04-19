@@ -33,7 +33,10 @@
   },
   "extra": {
     "installer-paths": {
-      "app/plugins/{$name}/": ["type:wordpress-plugin"]
+      "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "app/{$name}/": ["type:wordpress-dropin"],
+      "app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "app/themes/{$name}/": ["type:wordpress-theme"]
     },
     "webroot-dir": "wp-core",
     "webroot-package": "wordpress/wordpress"
