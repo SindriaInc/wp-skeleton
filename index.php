@@ -15,3 +15,6 @@ define( 'WP_USE_THEMES', true );
 
 /** Loads the WordPress Environment and Template */
 require __DIR__ . '/wp-core/wp-blog-header.php';
+
+/** Autoload composer vendor */
+require_once __DIR__ . 'vendor/autoload.php';
