@@ -10,14 +10,14 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "http://wpackagist.org"
+      "url": "https://wpackagist.org"
     },
     {
       "type": "package",
       "package": {
         "name": "wordpress/wordpress",
         "type": "webroot",
-        "version": "5.*",
+        "version": "5.4",
         "dist": {
           "type": "zip",
           "url": "https://wordpress.org/wordpress-5.4-no-content.zip"
@@ -29,7 +29,7 @@
     }
   ],
   "require": {
-    "wordpress/wordpress": "5.*"
+    "wordpress/wordpress": "5.4"
   },
   "extra": {
     "installer-paths": {
