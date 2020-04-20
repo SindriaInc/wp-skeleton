@@ -36,6 +36,8 @@
       "App\\Code\\": "app/code"
     }
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "extra": {
     "installer-paths": {
       "app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
