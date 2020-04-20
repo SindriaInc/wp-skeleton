@@ -9,5 +9,8 @@
 /app/themes/*
 !/app/themes/.gitkeep
 
+/app/uploads/*
+!/app/uploads/.gitkeep
+
 /wp-core
 /vendor
